@@ -22,3 +22,7 @@
 .pizza input::placeholder {
     color: rgb(43, 117, 182);
 }
+.pizza input:disabled {
+    background: #DFDFDF;
+    color: #909090 !important;
+}

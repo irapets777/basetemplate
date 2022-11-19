@@ -28,17 +28,29 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-12">
-                                            <form onsubmit="event.preventDefault()" class="pizza" post="/create_new_post">
+                                            <form onsubmit="event.preventDefault()" class="pizza"
+                                                post="/create_new_post">
                                                 <legend>Call Me</legend>
-                                                <input placeholder="name" type="text">
-                                                <input placeholder="phone number" type="text" required> 
+                                                <input placeholder="name" type="text" disabled>
+                                                <input placeholder="phone number" type="text" required>
                                                 <button class="btn-warning mb-3" type="submit">order pizza</button>
-                                               </form>
+                                                <select name="" id="">
+                                                    <option value="" selected disabled hidden>Choose</option>
+                                                    <optgroup label="choose val:">
+                                                        <option value="text">text</option>
+                                                        <option value="text">text1</option>
+                                                        <option value="text">text2</option>
+                                                    </optgroup>
+                                                    <option value="text">text</option>
+                                                    <option value="text">text1</option>
+                                                    <option value="text">text2</option>
+                                                </select>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
-                                 
-                             
+
+
                             </div>
                         </div>
                     </div>
