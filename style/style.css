@@ -1,0 +1,24 @@
+.modal-content {
+    background-color: rgb(28, 139, 28);
+}
+.pizza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pizza legend {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(241, 191, 24);
+}
+.pizza input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(148, 240, 227);
+}
+.pizza input::placeholder {
+    color: rgb(43, 117, 182);
+}
