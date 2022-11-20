@@ -1,0 +1,13 @@
+@import url('../style/variables.css');
+.test1, .test3 {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 10px;
+    background-color: var(--primary-color);
+  }
+  .test2, .test4 {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 10px;
+    background-color: var(--secondary-color);
+  }
